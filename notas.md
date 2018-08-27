@@ -22,3 +22,8 @@ Tampoco detecta ningun dispositivo (18:36)
 
 Vamos a probar usar pygame como ultimo intento, sino lo pruebo en la compu de casa o en la de agus para la proxima.
 
+26/8/18
+
+Al final durante la clase pygame funciono en la laptop, pero tiene un mixer que solo reproduce audio pero no graba del microfono y no logramos rastrear que usaba internamente. Termino la clase y quedo pendiente solucionar el problema de comunicacion con el dispositivo. 
+
+Hoy probe hacer lo mismo en otra laptop completamente diferente que lo unico que comparten es el sistema operativo (Linux Mint 18) y tampoco pude detectar la placa ni con PyAudio ni con SoundDevice, por lo que asumo que es un tema de compatibilidad con el operativo. En mi compu de escritorio si pudelo hacer anda inmediatamente y sin dificultades SoundDevice pero esta compu no la puedo usar para hacer mediciones por lo que no sirve como solucion definitiva. Voy a empezar a desarrollar el soft aca y mientras tanto el plan es ver si la compu de Agus corre bien el soft o sino instalar windows en una particion de mi compu mas vieja que es la que tiene entrada y salida de audio. 
